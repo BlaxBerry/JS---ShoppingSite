@@ -1,0 +1,59 @@
+/* html,
+body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #666666;
+    font-size: 12px;
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    ;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c81623;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    height: 0;
+    visibility: none;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    ;
+}

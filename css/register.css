@@ -1,0 +1,135 @@
+/* header */
+
+.header {
+    height: 90px;
+    width: 100%;
+    border-bottom: 2px solid #b1191a;
+}
+
+
+/* registerarea */
+
+.registerarea {
+    margin-top: 10px;
+    height: 520px;
+    border: #cccccc 1px solid;
+}
+
+.registerarea_head {
+    height: 40px;
+    padding: 0 15px;
+    background-color: #ececec;
+    border-bottom: #cccccc 1px solid;
+    line-height: 40px;
+}
+
+.registerarea_head h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.registerarea_head .login {
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea_head .login a {
+    color: #b1191a;
+}
+
+
+/* form */
+
+.registerarea_body {
+    width: 600px;
+    margin: 50px auto;
+}
+
+form li {
+    margin-bottom: 20px;
+}
+
+form li label {
+    display: inline-block;
+    width: 90px;
+    margin-right: 30px;
+    text-align: right;
+}
+
+form input {
+    width: 242px;
+    height: 37px;
+    padding-left: 5px;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+}
+
+.agree {
+    padding-left: 120px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.agree input {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
+.safelevel {
+    margin-left: 160px;
+}
+
+.safelevel i {
+    padding: 0 15px;
+    color: #ffffff;
+}
+
+.safelevel .red {
+    background-color: #de1111;
+}
+
+.safelevel .yellow {
+    background-color: #f79100;
+}
+
+.safelevel .green {
+    background-color: #40b83f;
+}
+
+.sub_button {
+    width: 200px;
+    height: 40px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+form li i {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+
+.error {
+    color: #de1111;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.success {
+    color: #40b83f;
+}

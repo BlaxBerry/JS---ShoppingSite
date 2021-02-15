@@ -41,6 +41,10 @@
 
 /* form */
 
+form {
+    margin-left: 50px;
+}
+
 .registerarea_body {
     width: 600px;
     margin: 50px auto;
@@ -80,7 +84,7 @@ form input {
 }
 
 .safelevel {
-    margin-left: 160px;
+    margin-left: 140px;
 }
 
 .safelevel i {
@@ -112,9 +116,8 @@ form input {
 
 form li i {
     display: inline-block;
-    height: 20px;
-    width: 20px;
-    margin-right: 5px;
+    height: 18px;
+    margin-left: 5px;
     vertical-align: middle;
 }
 

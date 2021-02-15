@@ -31,30 +31,31 @@
             <div class="registerarea_head">
                 <h3>注册新用户</h3>
                 <div class="login">
-                    <span>已有账号，点击</span><a href="">登录</a>
+                    <span>已有账号，点击 </span><a href="">登录</a>
                 </div>
             </div>
             <div class="registerarea_body">
                 <form action="">
                     <ul>
                         <li>
-                            <label for="tel">手机号码</label>
-                            <input type="tel" name="" id="tel" maxlength="11" minlength="11">
-                            <i class="error_icon"></i>
-                            <span class="error"></span>
+                            <label for="usrname">注册姓名</label>
+                            <input type="text" name="usrname" id="usrname" required autofocus>
+                            <span class="">
+                                <i></i>
+                            </span>
                         </li>
                         <li>
-                            <label for="code">短信验证码</label>
-                            <input type="text" name="" id="code" maxlength="6" minlength="6">
-                            <span class="success">
-                                <i class="success_icon"></i>asdf
+                            <label for="mail">注册Email</label>
+                            <input type="email" name="email" id="mail" required>
+                            <span class="">
+                                <i></i>
                             </span>
                         </li>
                         <li>
                             <label for="ps1">登录密码</label>
-                            <input type="password" name="" id="ps1">
-                            <span class="error">
-                                <i class="error_icon"></i>asdf
+                            <input type="password" name="password" id="ps1">
+                            <span class="">
+                                <i></i>
                             </span>
                         </li>
                         <li class="safelevel">
@@ -66,8 +67,8 @@
                         <li>
                             <label for="ps2">确认密码</label>
                             <input type="password" name="" id="ps2">
-                            <span class="error">
-                                <i class="error_icon"></i>asdf
+                            <span class="">
+                                <i></i> 密码不一致
                             </span>
                         </li>
                         </li>
@@ -235,7 +236,7 @@
                 <dl>
                     <dt>服务指南</dt>
                     <dd>
-                        <img src="images/wx_cz.jpg" alt=""> 客户端
+                        <img src="images/wx_cz.jpg" title="Wechat" id="wechat"> 客户端
                     </dd>
                 </dl>
             </div>

@@ -316,6 +316,10 @@ body {
     width: 90px;
 }
 
+#wechat {
+    height: 100px;
+}
+
 .mod_copyright {
     text-align: center;
 }
